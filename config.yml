@@ -1,0 +1,16 @@
+#Welcome to WarzoneOres Config file v1.0
+
+Messages:
+  prefix: "&5[&bWarzoneOres&5]: "
+  reload: "&cSuccessfully reloaded the config file!"
+  warzoneores-set: "&aSuccessfully added the block and its drops. To remove type &c/wo remove&a."
+  warzoneores-remove: "&cSuccessfully removed the block."
+  block-not-found: "&cBlock is not registered. To register a block use /wo set [cooldown]"
+
+Blocks:
+  #Get the block types here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  block-type-after-broken: "BEDROCK"
+  message-after-breaking-block: "&eYou just broke a Warzone block and received some rewards!"
+  commands-after-breaking-block:
+    - "eco give %Player% 10"
+
