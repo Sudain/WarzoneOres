@@ -11,6 +11,12 @@ Blocks:
   #Get the block types here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
   block-type-after-broken: "BEDROCK"
   message-after-breaking-block: "&eYou just broke a Warzone block and received some rewards!"
+   #Get the sound names here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  #Leave empty to disable.
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  #Get the particle names here:https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+  #Leave empty to disable.
+  particle: "SOUL_FIRE_FLAME"
   commands-after-breaking-block:
     - "eco give %Player% 10"
 
