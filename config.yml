@@ -18,7 +18,7 @@ Blocks:
   particle: ""
   message-after-breaking-block: "&eYou just broke a Warzone block and received some rewards!"
   #Include "Chance:" before the command if you want to a chance for this command to be executed.
-  #If you want it to execute every time leave it empty as first command.
+  #If you want it to execute every time leave it empty as the first command.
   commands-after-breaking-block:
     - "eco give %Player% 10"
     - "20:eco give %Player% 30"
