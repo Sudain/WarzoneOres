@@ -10,13 +10,17 @@ Messages:
 Blocks:
   #Get the block types here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
   block-type-after-broken: "BEDROCK"
-  message-after-breaking-block: "&eYou just broke a Warzone block and received some rewards!"
-   #Get the sound names here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  #Get the sound names here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
   #Leave empty to disable.
   sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
   #Get the particle names here:https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
   #Leave empty to disable.
-  particle: "SOUL_FIRE_FLAME"
+  particle: ""
+  message-after-breaking-block: "&eYou just broke a Warzone block and received some rewards!"
+  #Include "Chance:" before the command if you want to a chance for this command to be executed.
+  #If you want it to execute every time leave it empty as first command.
   commands-after-breaking-block:
     - "eco give %Player% 10"
+    - "20:eco give %Player% 30"
+    - "10:give %Player% diamond_sword 1"
 
